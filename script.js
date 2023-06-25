@@ -37,12 +37,12 @@ listItem.innerHTML = 'Updated Item';
 document.getElementById("go-forward").addEventListener("click", (event) => {
     console.log('button forward clicked');
     console.log('event', event);
-    history.forward();
+    // history.forward();
 });
 
 document.getElementById("go-back").addEventListener("click", () => {
     console.log('button back clicked');
-    history.back();
+    // history.back();
 });
 
 
